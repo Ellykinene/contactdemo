@@ -1,0 +1,87 @@
+::selection {
+  background-color: var(--ast-global-color-0);
+  color: #ffffff;
+}
+::selection {
+  color: #fff;
+  background: #0274be;
+    background-color: rgb(2, 116, 190);
+}
+element {
+}
+:root {
+  --page-title-display: block;
+}
+:root {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+}
+:root {
+  --e-global-color-astglobalcolor0: #0274be;
+  --e-global-color-astglobalcolor1: #3a3a3a;
+  --e-global-color-astglobalcolor2: #3a3a3a;
+  --e-global-color-astglobalcolor3: #4B4F58;
+  --e-global-color-astglobalcolor4: #F5F5F5;
+  --e-global-color-astglobalcolor5: #FFFFFF;
+  --e-global-color-astglobalcolor6: #F2F5F7;
+  --e-global-color-astglobalcolor7: #424242;
+  --e-global-color-astglobalcolor8: #000000;
+}
+:root {
+  --ast-border-color: #dddddd;
+}
+:root {
+  --ast-global-color-0: #0274be;
+  --ast-global-color-1: #3a3a3a;
+  --ast-global-color-2: #3a3a3a;
+  --ast-global-color-3: #4B4F58;
+  --ast-global-color-4: #F5F5F5;
+  --ast-global-color-5: #FFFFFF;
+  --ast-global-color-6: #F2F5F7;
+  --ast-global-color-7: #424242;
+  --ast-global-color-8: #000000;
+}
+:root {
+  --ast-container-default-xlg-padding: 6.67em;
+  --ast-container-default-lg-padding: 5.67em;
+  --ast-container-default-slg-padding: 4.34em;
+  --ast-container-default-md-padding: 3.34em;
+  --ast-container-default-sm-padding: 6.67em;
+  --ast-container-default-xs-padding: 2.4em;
+  --ast-container-default-xxs-padding: 1.4em;
+}
+  @media screen and (max-width: 782px)
+html {
+  margin-top: 46px !important;
+}
+html {
+  margin-top: 32px !important;
+}
+  @media (max-width: 921px)
+html {
+  font-size: 91.2%;
+}
+html {
+  font-size: 100%;
+}
+html {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+address, blockquote, body, dd, dl, dt, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, html, iframe, legend, li, ol, p, pre, textarea, ul {
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+    margin-top: 0px;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+  @media screen and (max-width: 782px)
+
+

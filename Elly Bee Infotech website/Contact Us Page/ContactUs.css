@@ -1,0 +1,261 @@
+
+element {
+}
+:focus {
+  outline-color: var(--blue-600);
+  outline-offset: 4px;
+}
+:root {
+  --shadow-1: 0 0 1px rgba(0,0,0,0.1),0 4px 12px rgba(0,0,0,0.12);
+  --shadow-2: 0px 0 2px rgba(123,162,182,0.22),0 5px 8px rgba(93,150,179,0.1);
+  --shadow-3: 1px 1px 1px rgba(0,0,0,0.03),0 9px 23px -1px rgba(51,64,86,0.1);
+  --shadow-4: 1px 1px 1px rgba(0,0,0,0.03),0 1px 7px -1px rgba(0,0,0,0.08);
+  --shadow-5: 0px 12px 20px rgba(161,168,180,0.2);
+  --shadow-6: 0 0 2px rgba(123,162,182,0.22),0 5px 10px rgba(93,150,179,0.25);
+  --shadow-7: 0 0 2px rgba(88,100,122,0.2),0 2px 18px 5px rgba(88,100,122,0.09);
+  --shadow-8: 0 0 0 0.2rem rgba(255,255,255,0.3);
+  --shadow-9: 0 2px 8px rgba(31,32,36,0.08);
+  --shadow-10: 0px 0 2px rgba(88,100,122,0.2),0 2px 10px 5px rgba(88,100,122,0.19);
+}
+:root {
+  --z-index-synonyms-dropdown: 10;
+  --z-index-dropdown-hint: 20;
+  --z-index-tooltip: 30;
+  --z-index-select2-dropdown: 98;
+  --z-index-jivo-chat-mobile-button: 99;
+  --z-index-cookie-popup: 100;
+  --z-index-chatbot: 300;
+  --z-index-mobile-main-menu: 400;
+  --z-index-modal-message: 500;
+  --z-index-overlay: 10000;
+}
+
+
+:root {
+  --heading-scale-ratio: 1.17;
+  --heading-line-height: 1.25;
+  --paragraph-unit: 16px;
+  --body-line-height: 1.5;
+  --font-family-default: Commissioner, sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+}
+:root {
+  --white-default: #fff;
+  --black-default: #16243c;
+  --black-1000: #000;
+  --gray-900: #3a465a;
+  --gray-800: #586479;
+  --gray-500: #a2a8b4;
+  --gray-300: #d0d3d7;
+  --gray-200: #e3e9ed;
+  --gray-150: #f3f4f6;
+  --gray-100: #f5f7fa;
+  --blue-900: #1c8dd4;
+  --blue-800: #2076ac;
+  --blue-600: #3095d5;
+  --blue-400: #38a9f0;
+  --blue-350: #c4e2f3;
+  --blue-300: #d4e9f7;
+  --blue-200: #eaf4fb;
+  --green-800: #5f8f3d;
+  --green-500: #6da446;
+  --green-400: #94be46;
+  --green-250: #cbebce;
+  --green-200: #dfebc7;
+  --green-100: #f0f6e5;
+  --yellow-700: #ffaf38;
+  --yellow-500: #ffcb3d;
+  --yellow-200: #ffefc7;
+  --yellow-150: #fff2d1;
+  --yellow-100: #fff6e0;
+  --red-400: #f46767;
+  --red-200: #f9e1e1;
+  --red-100: #faf5f5;
+  --orange-900: #fd4d1c;
+  --orange-800: #ec6736;
+  --orange-600: #ff7f4d;
+  --turquoise-800: #15b7ac;
+  --turquoise-200: #baede9;
+  --turquoise-100: #dbf6f3;
+  --lilac-700: #817dba;
+  --lilac-100: #f1f0ff;
+  --pink-200: #fde2e2;
+  --pink-100: #fff5f5;
+  --white-default-alpha-01: rgba(255,255,255,0.1);
+  --white-default-alpha-02: rgba(255,255,255,0.2);
+  --black-default-alpha-06: rgba(22,36,60,0.6);
+  --blue-400-L-11: hsl(203, 86%, calc(58% - 11%));
+  --blue-600-L-07: hsl(203, 66%, calc(51% - 7%));
+  --blue-600-L-11: hsl(203, 66%, calc(51% - 11%));
+  --blue-600-L-12: hsl(203, 66%, calc(51% - 12%));
+  --blue-800-alpha-015: rgba(32,118,172,0.15);
+  --blue-900-alpha-025: rgba(28,141,212,0.25);
+  --orange-900-L-07: hsl(13, 98%, calc(55% - 7%));
+  --orange-900-L-11: hsl(13, 98%, calc(55% - 11%));
+  --orange-900-L-12: hsl(13, 98%, calc(55% - 12%));
+  --orange-600-L-07: hsl(17, 100%, calc(65% - 7%));
+  --orange-600-L-11: hsl(17, 100%, calc(65% - 11%));
+  --orange-600-L-12: hsl(17, 100%, calc(65% - 12%));
+  --turquoise-800-L-07: hsl(176, 79%, calc(40% - 7%));
+  --turquoise-800-L-11: hsl(176, 79%, calc(40% - 11%));
+  --turquoise-800-L-12: hsl(176, 79%, calc(40% - 12%));
+  --red-400-L-07: hsl(0, 86%, calc(68% - 7%));
+  --red-400-L-11: hsl(0, 86%, calc(68% - 11%));
+  --red-400-L-12: hsl(0, 86%, calc(68% - 12%));
+  --yellow-500-L-11: hsl(44, 100%, calc(62% - 11%));
+  --yellow-500-L-12: hsl(44, 100%, calc(62% - 12%));
+  --yellow-700-L-07: hsl(36, 100%, calc(61% - 7%));
+  --yellow-700-L-11: hsl(36, 100%, calc(61% - 11%));
+  --yellow-700-L-12: hsl(36, 100%, calc(61% - 12%));
+  --yellow-500-alpha-06: rgba(255,203,61,0.6);
+  --gray-800-alpha-06: rgba(88,100,121,0.6);
+  --gray-800-alpha-08: rgba(88,100,121,0.8);
+  --green-800-alpha-07: rgba(95,143,61,0.7);
+}
+:root {
+  --transition: 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+:focus {
+  outline-color: var(--blue-600);
+  outline-offset: 4px;
+}
+:root {
+  --shadow-1: 0 0 1px rgba(0,0,0,0.1),0 4px 12px rgba(0,0,0,0.12);
+  --shadow-2: 0px 0 2px rgba(123,162,182,0.22),0 5px 8px rgba(93,150,179,0.1);
+  --shadow-3: 1px 1px 1px rgba(0,0,0,0.03),0 9px 23px -1px rgba(51,64,86,0.1);
+  --shadow-4: 1px 1px 1px rgba(0,0,0,0.03),0 1px 7px -1px rgba(0,0,0,0.08);
+  --shadow-5: 0px 12px 20px rgba(161,168,180,0.2);
+  --shadow-6: 0 0 2px rgba(123,162,182,0.22),0 5px 10px rgba(93,150,179,0.25);
+  --shadow-7: 0 0 2px rgba(88,100,122,0.2),0 2px 18px 5px rgba(88,100,122,0.09);
+  --shadow-8: 0 0 0 0.2rem rgba(255,255,255,0.3);
+  --shadow-9: 0 2px 8px rgba(31,32,36,0.08);
+  --shadow-10: 0px 0 2px rgba(88,100,122,0.2),0 2px 10px 5px rgba(88,100,122,0.19);
+}
+:root {
+  --z-index-synonyms-dropdown: 10;
+  --z-index-dropdown-hint: 20;
+  --z-index-tooltip: 30;
+  --z-index-select2-dropdown: 98;
+  --z-index-jivo-chat-mobile-button: 99;
+  --z-index-cookie-popup: 100;
+  --z-index-chatbot: 300;
+  --z-index-mobile-main-menu: 400;
+  --z-index-modal-message: 500;
+  --z-index-overlay: 10000;
+}
+
+:root {
+  --heading-scale-ratio: 1.17;
+  --heading-line-height: 1.25;
+  --paragraph-unit: 16px;
+  --body-line-height: 1.5;
+  --font-family-default: Commissioner, sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+}
+:root {
+  --white-default: #fff;
+  --black-default: #16243c;
+  --black-1000: #000;
+  --gray-900: #3a465a;
+  --gray-800: #586479;
+  --gray-500: #a2a8b4;
+  --gray-300: #d0d3d7;
+  --gray-200: #e3e9ed;
+  --gray-150: #f3f4f6;
+  --gray-100: #f5f7fa;
+  --blue-900: #1c8dd4;
+  --blue-800: #2076ac;
+  --blue-600: #3095d5;
+  --blue-400: #38a9f0;
+  --blue-350: #c4e2f3;
+  --blue-300: #d4e9f7;
+  --blue-200: #eaf4fb;
+  --green-800: #5f8f3d;
+  --green-500: #6da446;
+  --green-400: #94be46;
+  --green-250: #cbebce;
+  --green-200: #dfebc7;
+  --green-100: #f0f6e5;
+  --yellow-700: #ffaf38;
+  --yellow-500: #ffcb3d;
+  --yellow-200: #ffefc7;
+  --yellow-150: #fff2d1;
+  --yellow-100: #fff6e0;
+  --red-400: #f46767;
+  --red-200: #f9e1e1;
+  --red-100: #faf5f5;
+  --orange-900: #fd4d1c;
+  --orange-800: #ec6736;
+  --orange-600: #ff7f4d;
+  --turquoise-800: #15b7ac;
+  --turquoise-200: #baede9;
+  --turquoise-100: #dbf6f3;
+  --lilac-700: #817dba;
+  --lilac-100: #f1f0ff;
+  --pink-200: #fde2e2;
+  --pink-100: #fff5f5;
+  --white-default-alpha-01: rgba(255,255,255,0.1);
+  --white-default-alpha-02: rgba(255,255,255,0.2);
+  --black-default-alpha-06: rgba(22,36,60,0.6);
+  --blue-400-L-11: hsl(203, 86%, calc(58% - 11%));
+  --blue-600-L-07: hsl(203, 66%, calc(51% - 7%));
+  --blue-600-L-11: hsl(203, 66%, calc(51% - 11%));
+  --blue-600-L-12: hsl(203, 66%, calc(51% - 12%));
+  --blue-800-alpha-015: rgba(32,118,172,0.15);
+  --blue-900-alpha-025: rgba(28,141,212,0.25);
+  --orange-900-L-07: hsl(13, 98%, calc(55% - 7%));
+  --orange-900-L-11: hsl(13, 98%, calc(55% - 11%));
+  --orange-900-L-12: hsl(13, 98%, calc(55% - 12%));
+  --orange-600-L-07: hsl(17, 100%, calc(65% - 7%));
+  --orange-600-L-11: hsl(17, 100%, calc(65% - 11%));
+  --orange-600-L-12: hsl(17, 100%, calc(65% - 12%));
+  --turquoise-800-L-07: hsl(176, 79%, calc(40% - 7%));
+  --turquoise-800-L-11: hsl(176, 79%, calc(40% - 11%));
+  --turquoise-800-L-12: hsl(176, 79%, calc(40% - 12%));
+  --red-400-L-07: hsl(0, 86%, calc(68% - 7%));
+  --red-400-L-11: hsl(0, 86%, calc(68% - 11%));
+  --red-400-L-12: hsl(0, 86%, calc(68% - 12%));
+  --yellow-500-L-11: hsl(44, 100%, calc(62% - 11%));
+  --yellow-500-L-12: hsl(44, 100%, calc(62% - 12%));
+  --yellow-700-L-07: hsl(36, 100%, calc(61% - 7%));
+  --yellow-700-L-11: hsl(36, 100%, calc(61% - 11%));
+  --yellow-700-L-12: hsl(36, 100%, calc(61% - 12%));
+  --yellow-500-alpha-06: rgba(255,203,61,0.6);
+  --gray-800-alpha-06: rgba(88,100,121,0.6);
+  --gray-800-alpha-08: rgba(88,100,121,0.8);
+  --green-800-alpha-07: rgba(95,143,61,0.7);
+}
+
+html {
+  font-size: 8px;
+}
+html {
+  --font-size-paragraph: var(--paragraph-unit);
+  --font-size-h1: calc(calc(calc(calc(var(--paragraph-unit) * var(--heading-scale-ratio)) * var(--heading-scale-ratio)) * var(--heading-scale-ratio)) * var(--heading-scale-ratio));
+  --font-size-h2: calc(calc(calc(var(--paragraph-unit) * var(--heading-scale-ratio)) * var(--heading-scale-ratio)) * var(--heading-scale-ratio));
+  --font-size-h3: calc(calc(var(--paragraph-unit) * var(--heading-scale-ratio)) * var(--heading-scale-ratio));
+  --font-size-h4: calc(var(--paragraph-unit) * var(--heading-scale-ratio));
+  --font-size-h5: var(--paragraph-unit);
+}
+
+html {
+  font-size: 8px;
+}
+html {
+  --font-size-paragraph: var(--paragraph-unit);
+  --font-size-h1: calc(calc(calc(calc(var(--paragraph-unit) * var(--heading-scale-ratio)) * var(--heading-scale-ratio)) * var(--heading-scale-ratio)) * var(--heading-scale-ratio));
+  --font-size-h2: calc(calc(calc(var(--paragraph-unit) * var(--heading-scale-ratio)) * var(--heading-scale-ratio)) * var(--heading-scale-ratio));
+  --font-size-h3: calc(calc(var(--paragraph-unit) * var(--heading-scale-ratio)) * var(--heading-scale-ratio));
+  --font-size-h4: calc(var(--paragraph-unit) * var(--heading-scale-ratio));
+  --font-size-h5: var(--paragraph-unit);
+}
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+*, ::before, ::after {
+  box-sizing: border-box;
+}
